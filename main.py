@@ -1,11 +1,5 @@
-EXIT_CODE = '0'
-
-def msg(text=''):
-    # вывод сообщения
-    print(text)
-
-def new():
-    msg('Новый файл...')
+from const import *
+from fnew import new
 
 def open():
     msg('Открыть файл...')
